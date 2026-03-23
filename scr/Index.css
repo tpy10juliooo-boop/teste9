@@ -1,0 +1,72 @@
+body {
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(102, 16, 16));
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: rgb(76, 10, 10);
+    height: 50px;
+    font-family: cursive2;
+    max-width: 600px;
+    margin: auto
+}
+
+nav a:hover {
+    color: rgb(255, 4, 0);
+}
+
+nav {
+    font-family: RobotoSlab;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.galeria img {
+    height: 50px;
+    border-radius: 12px 28px;
+    border: 5px solid rgb(108, 15, 15);
+
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h2,
+h3{
+    font-family: RobotoSlab;
+    color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: auto;
+}
+
+div {
+    font-family: RobotoSlab;
+    color: aliceblue
+}
+
+@import url(EduNSWACTCursive-Regular.ttf);
+
+@font-face {
+    font-family: cursive2;
+    src: url(EduNSWACTCursive-Regular.ttf)
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+
+main {
+    font-family: RobotoSlab;
+}
